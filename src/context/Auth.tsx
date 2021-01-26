@@ -11,7 +11,8 @@ const AuthContext = createContext<AuthContextData>({} as AuthContextData);
 export const AuthProvider: React.FC = ({ children }) => {
   async function signIn() {
     const response = await auth.signIn();
-    console.log(response);
+    const { token, user } = response;
+    console.log(token);
   }
 
   return (
