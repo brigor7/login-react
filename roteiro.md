@@ -19,3 +19,7 @@
 #### Criaçao de pages app.routes, em formato tsx, para apresentar rotas depois de logado
 
 #### Criaçao de pages auth.routes, em formato tsx, para rotas que ainda não foram logadas
+
+### Criando uma API fake para consumo de dados
+
+#### Criação de pasta src/service a arquivo auth.ts
