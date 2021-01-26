@@ -1,5 +1,6 @@
 import React, { createContext, useState } from 'react';
 import * as auth from '../service/auth';
+import AsyncStorage from '@react-native-community/async-storage';
 
 interface AuthContextData {
   signed: boolean;
@@ -14,6 +15,8 @@ export const AuthProvider: React.FC = ({ children }) => {
   async function signIn() {
     const response = await auth.signIn();
     setUser(response.user);
+    await AsyncStorage.setItem('@RNAuth:user', JSON.stringify(response.user));
+    await AsyncStorage.setItem('@RNAuth:token', response.token);
   }
 
   async function signOut() {

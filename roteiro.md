@@ -4,7 +4,7 @@
 
 # Importando bibliotecas
 
-`yarn add @react-navigation/native react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view @react-navigation/stack`
+`yarn add @react-navigation/native react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view @react-navigation/stack @react-native-community/async-storage`
 
 # Criação de estrutura de pastas
 
@@ -29,3 +29,7 @@
 ### Gravação de dados de token com uso de context
 
 ### Implementando a logica de login no Context/Provider e não no App.ts
+
+### Construindo as funções de login e logout e chamando-as nas pages Signin e Dashboard respectivamente.
+
+### Armazenando o token no storage.
