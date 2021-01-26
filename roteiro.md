@@ -10,8 +10,12 @@
 
 ### SRC > pages
 
-#### Criação de pasta Signin para usuario se logar na aplicação
+#### Criação de page Signin para usuario se logar na aplicação
 
-#### Criação de pasta Dashboard para usuario visualizar conteudo após logado na aplicação
+#### Criação de page Dashboard para usuario visualizar conteudo após logado na aplicação
 
 ### SRC > routes
+
+#### Criaçao de pages app.routes, em formato tsx, para apresentar rotas depois de logado
+
+#### Criaçao de pages auth.routes, em formato tsx, para rotas que ainda não foram logadas
