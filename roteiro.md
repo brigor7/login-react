@@ -35,3 +35,5 @@
 ### Armazenando o token no storage.
 
 ### Criação de loading
+
+### Usando o axios para guardar o token no header da requisição passando-se esta para o backend
