@@ -3,7 +3,7 @@ import { View, Button, StyleSheet } from 'react-native';
 import AuthContext from '../../context/Auth';
 
 const Signin: React.FC = () => {
-  const { signed, signIn } = useContext(AuthContext);
+  const { signIn } = useContext(AuthContext);
 
   function handleSignIn() {
     signIn();
@@ -11,7 +11,7 @@ const Signin: React.FC = () => {
 
   return (
     <View style={styles.container}>
-      <Button title="Signin" onPress={handleSignIn} />
+      <Button title="Sign in" onPress={handleSignIn} />
     </View>
   );
 };

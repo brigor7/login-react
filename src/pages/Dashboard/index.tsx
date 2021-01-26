@@ -3,13 +3,13 @@ import { View, Button, StyleSheet } from 'react-native';
 import AuthContext from '../../context/Auth';
 
 const Dashboard: React.FC = () => {
-  const { signed, signOut } = useContext(AuthContext);
+  const { signOut } = useContext(AuthContext);
   function handleSignout() {
     signOut();
   }
   return (
     <View style={styles.container}>
-      <Button title="SignOut" onPress={handleSignout} />
+      <Button title="Sign out" onPress={handleSignout} />
     </View>
   );
 };
