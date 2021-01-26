@@ -1,6 +1,10 @@
 import React from 'react';
-import { View } from 'react-native';
+import { View, Button } from 'react-native';
 
-const Signin: React.FC = () => <View />;
+const Signin: React.FC = () => (
+  <View>
+    <Button title="Signin" onPress={() => {}} />
+  </View>
+);
 
 export default Signin;
