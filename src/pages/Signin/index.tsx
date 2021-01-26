@@ -1,11 +1,13 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { View, Button, StyleSheet } from 'react-native';
 import { signIn } from '../../service/auth';
+import AuthContext from '../../context/Auth';
 
 const Signin: React.FC = () => {
+  const { signed } = useContext(AuthContext);
   async function handleSignIn() {
     const response = await signIn();
-    console.log(response);
+    console.log(signed);
   }
 
   return (
