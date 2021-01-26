@@ -23,3 +23,5 @@
 ### Criando uma API fake para consumo de dados
 
 #### Criação de pasta src/service a arquivo auth.ts
+
+### Criação de context com dados que serão passados para toda a aplicação
