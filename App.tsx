@@ -3,12 +3,15 @@ import 'react-native-gesture-handler';
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
+import AuthContext from './src/context/Auth';
 import Routes from './src/routes';
 
 export default function App() {
   return (
     <NavigationContainer>
-      <Routes />
+      <AuthContext.Provider value={{ signed: true }}>
+        <Routes />
+      </AuthContext.Provider>
     </NavigationContainer>
   );
 }
