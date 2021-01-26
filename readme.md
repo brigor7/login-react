@@ -35,7 +35,7 @@ A fonte de inspiração para esta implementação foi através de [masterclass](
 
 ## :tela: Tela App
 
-![](https://github.com/brigor7/login-react/blob/main/assets/video.mp4)
+![](https://github.com/brigor7/login-react/blob/main/assets/video.gif)
 
 ## :rocket: Tecnologias
 
