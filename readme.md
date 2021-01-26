@@ -17,7 +17,7 @@
 
 Aplicação criada para a realização de Login, guardando e utilizando o estado do usuario e token em contexto e localstorage. Foi criado uma api fake para acesso aos dados assim como foi realizada a gravação do token no request.headers utilizando o axios. O desenvolvimento dessa aplicação foi feita na camada de frontend, utilizando o react-native, podendo esta lógica ser utilizada no react, com alteração da gravação do storage (asyncStorage/localStorage) destes ambientes.
 
-A fonte de inspirão para esta implementaçao foi através de [masterclass](https://www.youtube.com/watch?v=KISMYYXSIX8) realizada pelo Diego da Rocketseat.
+A fonte de inspiração para esta implementação foi através de [masterclass](https://www.youtube.com/watch?v=KISMYYXSIX8) realizada pelo Diego da Rocketseat.
 
 ## :collision: Funcionalidades
 
@@ -39,7 +39,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Typescript](https://www.typescriptlang.org/)
 - [React](https://reactjs.org/)
 - [React Native](https://reactnative.dev/)
-- [Expor](https://expo.io/)
+- [Expo](https://expo.io/)
 
 ## :zap: Rodando o projeto
 
@@ -51,7 +51,7 @@ Importação das bibliotecas:
 
 \* Para mais detalhes, veja o <kbd>[package.json](./package.json)</kbd>
 
-Para rodar o projeto, acessa a pasta <nomedoprojeto> e execute
+Para rodar o projeto, acessa a pasta <nomedoprojeto> e execute:
 
 `yarn start`
 
