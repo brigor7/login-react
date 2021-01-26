@@ -37,3 +37,12 @@
 ### Criação de loading
 
 ### Usando o axios para guardar o token no header da requisição passando-se esta para o backend
+
+### Criando hook de autenticação
+
+Para usar o contexto é necessário que:
+
+- import useContext
+- import AuthContext
+- passe AuthContext como argumento para useContext.
+  Ex: const {user} = useContext(AuthContext)

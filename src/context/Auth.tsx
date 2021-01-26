@@ -1,4 +1,4 @@
-import React, { createContext, useState, useEffect } from 'react';
+import React, { createContext, useState, useEffect, useContext } from 'react';
 import * as auth from '../service/auth';
 import AsyncStorage from '@react-native-community/async-storage';
 import api from '../service/api';
@@ -60,4 +60,9 @@ export const AuthProvider: React.FC = ({ children }) => {
   );
 };
 
-export default AuthContext;
+/**Uso deste hook para evitar importações e chamadas do useContext e useContext(AuthContext)
+ */
+export function useAuth() {
+  const context = useContext(AuthContext);
+  return context;
+}
