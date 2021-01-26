@@ -25,3 +25,7 @@
 #### Criação de pasta src/service a arquivo auth.ts
 
 ### Criação de context com dados que serão passados para toda a aplicação
+
+### Gravação de dados de token com uso de context
+
+### Implementando a logica de login no Context/Provider e não no App.ts
