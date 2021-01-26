@@ -5,8 +5,7 @@
 <p align="center">
   <a href="#rocket-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#collision-funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#tela-app">Tela</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-   <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#zap-rodando-o-projeto">Rodando o Projeto</a>
 </p>
 
@@ -32,10 +31,6 @@ A fonte de inspiração para esta implementação foi através de [masterclass](
 - Passar o token para o request.headers.authorization
 - Criação de hook proprio
 - Realização de login e logout com inclusão/remoção de dados do context/storage
-
-## :tela: Tela App
-
-![](https://github.com/brigor7/login-react/blob/main/assets/video.gif)
 
 ## :rocket: Tecnologias
 
