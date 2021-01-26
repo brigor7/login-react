@@ -33,3 +33,5 @@
 ### Construindo as funções de login e logout e chamando-as nas pages Signin e Dashboard respectivamente.
 
 ### Armazenando o token no storage.
+
+### Criação de loading
